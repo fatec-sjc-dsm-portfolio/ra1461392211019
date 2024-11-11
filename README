@@ -1,1 +1,18 @@
-teste commit
+# Portifólio de Lucas França Registro
+Este é o portifolio de Lucas França Registro criado pelo mesmo.
+
+O objetivo é criar um portifólio usando HTML e CSS, onde eu contaria um pouco sobre mim e meus projetos.
+
+Na pasta "codigo fonte" se encontra os arquivos HTML, CSS e imagens usadas no portifólio.
+
+Dentro da pasta "codigo fonte" existem as pastas "static",  "templates", um arquivo "app.py" e um arquivo "requirements.txt".
+  
+Dentro da "static" possui o arquvio CSS e a pasta "imagens" com as imagens usadas.
+
+A pasta "templates" é onde fica as paginas HTML.
+
+O arquivo "app.py" é utilizado para a implantação local usando o Flask.
+
+O arquvio de texto "requirements.txt" é utilizado para instalar as extensões do Flask.
+
+Na pasta "doc" se encontra o wireframe do protótipo do portifólio em formato PDF contendo em sí a versão desktop e a versão mobile.
