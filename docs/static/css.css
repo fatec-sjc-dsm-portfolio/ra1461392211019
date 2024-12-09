@@ -251,13 +251,52 @@ img {
 
 .skill-list {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around; /* Espaça as imagens uniformemente */
+    align-items: flex-start; /* Alinha as imagens e estrelas pelo topo */
+}
 
+.skill-list li {
+    display: flex;
+    flex-direction: column; /* Organiza imagem e estrelas verticalmente */
+    align-items: center; /* Centraliza a imagem e as estrelas horizontalmente */
+    text-align: center; /* Garante que o texto (se houver) também esteja alinhado */
 }
 
 .caixa-projeto {
     margin: 3vw;
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.star {
+	font-size: 20px;
+	color: #ccc; /* Cor das estrelas vazias */
+	margin: 0 2px;
+}
+
+.star.filled {
+	color: #ffcc00; /* Cor das estrelas preenchidas */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.small-image {
+    width: 20vw; /* Tamanho reduzido da primeira imagem */
+    height: auto;
+}
+
+.large-image {
+    width: 40vw; /* Tamanho maior da segunda imagem */
+    height: auto;
 }
 /* li {
     margin: 0 20%;
